@@ -1,0 +1,84 @@
+*{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:blanchedalmond;
+}
+
+div:nth-child(1) {
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 22px;
+    background-color: black;
+    width: 100%;
+    /* margin: auto; */
+    height: 35px;
+    /* border-radius: 7px; */
+}
+a{
+    color: white;
+    margin: 65px;
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    width: 159px;
+    font-size: 22px;
+    background-color: darkgoldenrod;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+a:hover{
+    color: yellow;
+    text-shadow: 3px 3px green;
+}
+.btn:hover{
+    background-color: blueviolet;
+    box-shadow: 4px 4px green;
+}
+
+img{
+    width: 100vw;
+    height: 70vh;
+    opacity: 0.9;
+}
+.two{
+    position: relative;
+    top: -120px;
+    text-align: center;
+    margin: 4px;
+}
+h2{
+    text-align: center;
+    color: brown;
+    margin: 5px;
+    font-size: 30px;
+}
+h2:hover{
+    color: red;
+    text-shadow: 2px 2px rgb(90, 158, 219);
+}
+h1+p{
+    position: relative;
+    top: -460px;
+    text-align: center;
+}
+h1{
+    position: relative;
+    top: -460px;
+    text-align: center;
+    color: brown;
+    margin: 5px;
+    font-size: 30px;
+}
+h1:hover{
+    color: red;
+    text-shadow: 2px 2px rgb(90, 158, 219);
+}
+p{
+    font-size: 1.2rem;
+}
+
